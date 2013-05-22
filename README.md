@@ -25,6 +25,14 @@ thor script:
 
 Generate sf2.js files from the command line.
 
-- thor script (gem install thor)
-  - thor list
-  - thor help sf2:to_js
+```
+thor list
+```
+
+```
+thor help sf2:to_js
+```
+
+```
+thor sf2:to_js ~/Downloads/MagiCs5StringBanjo.sf2 -o ~/sf2/
+```
