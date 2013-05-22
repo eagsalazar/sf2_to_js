@@ -25,6 +25,11 @@ thor script:
 
 Generate sf2.js files from the command line.
 
+First:
+```
+gem install thor
+```
+
 ```
 thor list
 ```

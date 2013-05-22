@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'sf2_to_js'
-  s.version     = '0.0.0'
+  s.version     = '0.0.1'
   s.date        = '2013-05-22'
   s.summary     = "Convert sf2 sound fonts to js"
   s.authors     = "Esteban Salazar"
@@ -10,5 +10,4 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'midilib'
   s.add_runtime_dependency 'colorize'
-  s.add_runtime_dependency 'thor'
 end
