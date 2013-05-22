@@ -20,5 +20,10 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'midilib'
   spec.add_runtime_dependency 'colorize'
   spec.add_runtime_dependency 'thor'
+
+  spec.required_ruby_version = '>= 1.9.3'
+
+  spec.requirements << "fluidsynth"
+  spec.requirements << "oggenc"
 end
 
