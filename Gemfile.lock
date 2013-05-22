@@ -4,12 +4,14 @@ PATH
     sf2_to_js (0.0.3)
       colorize
       midilib
+      thor
 
 GEM
   remote: https://rubygems.org/
   specs:
     colorize (0.5.8)
     midilib (2.0.4)
+    thor (0.18.1)
 
 PLATFORMS
   ruby
