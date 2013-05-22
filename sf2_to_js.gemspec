@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'sf2_to_js'
-  s.version     = '0.0.2'
+  s.version     = '0.0.3'
   s.date        = '2013-05-22'
   s.summary     = "Convert sf2 sound fonts to js"
   s.authors     = "Esteban Salazar"
