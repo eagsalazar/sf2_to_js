@@ -4,6 +4,7 @@ sf2\_to\_js
 Gem and scripts to convert sf2 sound font files to js
 consumable by https://github.com/eagsalazar/midi.js
 
+- The sf2.js format is still subject to change!
 - required gems: midilib, fileutils, colorize, base64
 - required system (brew install): fluidsynth, oggenc
 
