@@ -1,0 +1,18 @@
+PATH
+  remote: .
+  specs:
+    sf2_to_js (0.0.3)
+      colorize
+      midilib
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    colorize (0.5.8)
+    midilib (2.0.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  sf2_to_js!
