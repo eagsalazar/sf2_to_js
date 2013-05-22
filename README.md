@@ -20,24 +20,26 @@ sf = Sf2ToJs.new "./FluidR3_GM.sf2", [105], "~/soundfonts"
 sf.to_js # -> ~/soundfonts/FluidR3_GM.Banjo.sf2.js
 ```
 
-thor script:
+bin/sf2\_to\_js:
 =========
 
-Generate sf2.js files from the command line.
+Generate .sf2.js files from the command line.
 
 First:
 ```
 gem install thor
 ```
 
+Then:
 ```
-thor list
-```
-
-```
-thor help sf2:to_js
+sf2_to_js # -> lists commands
 ```
 
 ```
-thor sf2:to_js ~/Downloads/MagiCs5StringBanjo.sf2 -o ~/sf2/
+sf2_to_js help to_js # -> options for to_js
+```
+
+```
+sf2_to_js to_js ~/Downloads/MagiCs5StringBanjo.sf2 -o ~/sf2/
+# -> ~/sf2/FluidR3\_GM.Banjo.sf2.js
 ```

@@ -1,3 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'thor'
+
 class Sf2 < Thor
 
   require File.expand_path("./lib/sf2_to_js")
@@ -13,3 +17,5 @@ class Sf2 < Thor
   end
 
 end
+
+Sf2.start(ARGV)
