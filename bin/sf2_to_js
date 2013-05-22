@@ -4,7 +4,7 @@ require 'thor'
 
 class Sf2 < Thor
 
-  require_relative "../lib/sf2_to_js"
+  require_relative "../lib/sf2_to_js/sf2_to_js"
 
   desc 'to_js SF2_PATH', 'convert sf2 soundfont to javascript'
   method_option :output_dir, aliases: '-o', desc: "output directory", default: "./soundfonts/"
@@ -12,10 +12,11 @@ class Sf2 < Thor
 
   def to_js sf2_path
     options[:instrument_ids].map!(&:to_i)
-    sf = Sf2ToJs.new sf2_path, options[:instrument_ids], options[:output_dir]
+    sf = Sf2ToJs::Sf2ToJs.new sf2_path, options[:instrument_ids], options[:output_dir]
     sf.to_js
   end
 
 end
 
 Sf2.start(ARGV)
+
