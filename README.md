@@ -11,7 +11,7 @@ usage:
 =========
 
 ```
-gem install 
+gem install sf2_to_js
 ```
 
 ```ruby
