@@ -5,6 +5,7 @@ module Sf2ToJs
     require 'midilib'
     require 'fileutils'
     require 'colorize'
+    require 'tempfile'
     include FileUtils
 
     MIDI_LOWEST_NOTE_INDEX = 21
